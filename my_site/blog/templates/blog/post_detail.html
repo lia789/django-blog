@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Post Details{% endblock %}
+
+
+{% block bootstrap_css_cdn %}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+{% endblock %}
+
+
+{% block application_css_file %}
+<link rel="stylesheet" href="{% static "blog/app.css" %}">
+{% endblock %}
+
+
+{% block content %}
+<div style="min-height: 20px;"></div>  <!-- Space between navbar and title container -->
+
+    <!-- Headline container -->
+    <div class="container bg-secondary">
+        <div class="row">
+            <div class="col-8">
+                <h1 class="p-5">Mountain Hiking</h1>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="{% static "blog/images/coding.jpg" %}" class="card-img-top" alt="coding">
+                    <div class="card-body">
+                      <h6 class="card-title">By Maximilian</h6>
+                      <p>Last updated on 21 Jul 2021</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <!-- Headline container end -->
+
+    <div style="min-height: 20px;"></div>  <!-- Space between navbar and title container -->
+
+    <!-- Paragraph container -->
+    <div class="container bg-success">
+        <div class="row">
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectas ex eaque dolor dolore velit quis! Quas vitae porro et velit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas ex eaque dolrro et velit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas ex eaque dolor dolore velit quis! Quas vitae porro et velit.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Paragraph container end-->
+
+    {% include "blog/includes/footer_code.html" %}
+
+{% endblock %}

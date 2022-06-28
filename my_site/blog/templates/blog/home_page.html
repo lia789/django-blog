@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Home Page{% endblock %}
+
+
+{% block bootstrap_css_cdn %}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+{% endblock %}
+
+
+{% block application_css_file %}
+<link rel="stylesheet" href="{% static "blog/app.css" %}">
+{% endblock %}
+
+
+{% block content %}
+
+
+<!-- Headline container-fluid -->
+<!-- Headline container-fluid -->
+<div class="container-fluid bg-primary pt-5 my-headline-container">
+    <!-- Title container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
+          <img
+            src="{% static "blog/images/max.png" %}"
+            class="img-thumbnail"
+            alt="max-profile-img"
+          />
+        </div>
+        <div class="col-4 text-white">
+          <h1 class="fw-bold display-5">MAXIMILIAN'S</h1>
+          <h1 class="fw-bold display-5">BLOG</h1>
+        </div>
+        <div class="col"></div>
+      </div>
+      <p class="text-white fs-4 p-5">
+        Hi, I am Max and I love to blog about tech and the world!
+      </p>
+    </div>
+    <!-- Title container end -->
+
+    <!--Latest blog container  -->
+    <div class="container bg-light">
+      <p class="text-center fs-4 p-5">My Latest Thoughts</p>
+
+      <div class="row">
+        <!-- Card-1 -->
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="{% static "blog/images/woods.jpg" %}" class="card-img-top" alt="woods" />
+            <div class="card-body">
+              <h5 class="card-title">Nature At Its Best</h5>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                deleniti laudantium voluptatum illo iste ducimus molestias.
+                Saepe perspiciatis ullam maiores.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card-2 -->
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img
+              src="{% static "blog/images/mountains.jpg" %}"
+              class="card-img-top"
+              alt="mountains"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Mountain Hiking</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius
+                fuga quo maiores dignissimos voluptatem exercitationem. Quasi
+                dolor harum quae. Iure sunt quod facere maxime debitis animi,
+                incidunt autem ipsam fuga!
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card-3 -->
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="{% static "blog/images/coding.jpg" %}" class="card-img-top" alt="coding" />
+            <div class="card-body">
+              <h5 class="card-title">Programming Is Great!</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Adipisci recusandae esse mollitia blanditiis tempora quam
+                vitae aliquam exercitationem reiciendis, odio quia accusamus
+                at voluptatum placeat fuga laborum possimus incidunt ullam
+                ipsa labore, sint est quaerat?
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Latest blog container end  -->
+    
+    {% include "blog/includes/footer_code.html" %}
+
+</div>
+<!-- Headline container-fluid end -->
+
+
+
+
+
+
+{% endblock %}

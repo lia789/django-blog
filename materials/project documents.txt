@@ -27,8 +27,9 @@ Steps I done:
 		* create a demo index.html file and test inheritance, project css and application css file
 	8. Design urls pattern on paper
 	9. Write every functions with pass and define urls with name
-	10. Design base.html file and work with home_page
-	11. Test demo data with django dynamic tags
+	10. Test base.html, project and application level css file with demo template inheritance
+	11. Design base.html file and work with home_page
+	12. Test demo data with django dynamic tags
 	
 	
 
