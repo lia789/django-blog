@@ -1,0 +1,11 @@
+/* post_detail.html css code */
+
+.blog-title-container {
+    background-color: rgb(69, 41, 105);
+    min-height: 250px;
+}
+
+
+.container-fluid {
+    max-height: 80px;
+}

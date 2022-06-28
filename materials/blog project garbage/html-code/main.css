@@ -1,0 +1,30 @@
+body {
+    color: white;
+}
+
+.container-fluid{
+    background-color: rgb(70, 3, 157);
+
+}
+
+.link-light {
+    text-decoration: none;
+}
+
+.posts-detail {
+    background-color: aliceblue;
+    min-height: 600px;
+}
+
+
+
+/* post_detail.html css code */
+
+/* .blog-title-container {
+    background-color: rgb(70, 3, 157);
+    min-height: 250px;
+} */
+
+
+
+

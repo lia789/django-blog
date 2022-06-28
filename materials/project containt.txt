@@ -1,0 +1,58 @@
+
+
+## Home Page ##
+
+Max' Blog
+All Posts
+
+MAXIMILIAN'S BLOG
+
+Hi, I am Max and I love to blog about tech and the world!
+
+My Latest Thoughts
+
+cards 1:
+Nature At Its Best
+lorem 20
+
+cards 2:
+Mountain Hiking
+lorem 30
+
+cards 3:
+Programming Is Great!
+lorem 25
+
+
+What I Do
+I love programming, I love to help others and I enjoy exploring new technologies in general!
+
+My goal is to keep on growing as a developer - and if I could help you do the same, I'd be very happy!
+
+current time: June 27 12:18 PM @blogpost
+
+
+
+
+
+## All Posts ##
+
+My Collected Posts
+
+cards 1, 2, 3
+
+
+
+
+
+## Post Detail ##
+Post title
+
+By Maximilian
+Last updated on 21 Jul 2021
+
+lorem 25
+lorem 10
+lorem 30
+
+
